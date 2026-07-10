@@ -150,3 +150,23 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+.auto-card {
+    border: 1px solid #999999;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.auto-card img {
+    width: 100%;
+    height: 160px;
+}
+
+.auto-card h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.auto-card p {
+    margin-bottom: 5px;
+}
