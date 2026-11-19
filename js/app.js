@@ -6,7 +6,7 @@ const autos = [
         precio: 65000000,
         tipo: "usado",
         combustible: "diesel",
-        imagen: "img/mustang.jpg"
+        imagen: "imagenes/mustang.jpg"
     },
     {
         marca: "Chevrolet",
@@ -15,7 +15,7 @@ const autos = [
         precio: 70000000,
         tipo: "usado",
         combustible: "nafta",
-        imagen: "img/camaro.jpg"
+        imagen: "imagenes/camaro.jpg"
     },
     {
         marca: "Chevrolet",
@@ -24,7 +24,7 @@ const autos = [
         precio: 120000000,
         tipo: "0km",
         combustible: "nafta",
-        imagen: "img/corvette.jpg"
+        imagen: "imagenes/corvette.jpg"
     },
     {
         marca: "Porsche",
@@ -33,7 +33,7 @@ const autos = [
         precio: 150000000,
         tipo: "usado",
         combustible: "nafta",
-        imagen: "img/porsche911.jpg"
+        imagen: "imagenes/porsche911.jpg"
     },
     {
         marca: "Porsche",
@@ -42,7 +42,7 @@ const autos = [
         precio: 95000000,
         tipo: "usado",
         combustible: "nafta",
-        imagen: "img/porschecayman.jpg"
+        imagen: "imagenes/porschecayman.jpg"
     },
     {
         marca: "Mercedes-Benz",
@@ -51,7 +51,7 @@ const autos = [
         precio: 135000000,
         tipo: "0km",
         combustible: "nafta",
-        imagen: "img/mercedesamg.jpg"
+        imagen: "imagenes/mercedesamg.jpg"
     }
 ];
 
