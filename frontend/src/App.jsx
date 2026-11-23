@@ -1,11 +1,25 @@
+import { HashRouter, Route, Routes } from 'react-router-dom'
+import Layout from '@components/Layout.jsx'
+import Inicio from '@pages/Inicio.jsx'
+import Catalogo from '@pages/Catalogo.jsx'
+import Contacto from '@pages/Contacto.jsx'
+
 /**
- * Componente principal de la aplicación
+ * Componente principal que define las rutas del sitio
  * @method App
- * @return {JSX.Element} Contenido principal del sitio
+ * @return {JSX.Element} Rutas de la aplicación
  */
 const App = () => {
   return (
-    <h1>Deluxe Cars</h1>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Inicio />} />
+          <Route path="catalogo" element={<Catalogo />} />
+          <Route path="contacto" element={<Contacto />} />
+        </Route>
+      </Routes>
+    </HashRouter>
   )
 }
 
