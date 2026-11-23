@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "marca": "Ford",
+    "modelo": "Mustang GT",
+    "anio": 2022,
+    "precio": 65000000,
+    "tipo": "usado",
+    "combustible": "nafta",
+    "imagen": "imagenes/mustang.jpg"
+  },
+  {
+    "id": 2,
+    "marca": "Chevrolet",
+    "modelo": "Camaro SS",
+    "anio": 2021,
+    "precio": 70000000,
+    "tipo": "usado",
+    "combustible": "nafta",
+    "imagen": "imagenes/camaro.jpg"
+  },
+  {
+    "id": 3,
+    "marca": "Chevrolet",
+    "modelo": "Corvette Stingray",
+    "anio": 2023,
+    "precio": 120000000,
+    "tipo": "0km",
+    "combustible": "nafta",
+    "imagen": "imagenes/corvette.jpg"
+  },
+  {
+    "id": 4,
+    "marca": "Porsche",
+    "modelo": "911 Carrera",
+    "anio": 2022,
+    "precio": 150000000,
+    "tipo": "usado",
+    "combustible": "nafta",
+    "imagen": "imagenes/porsche911.jpg"
+  },
+  {
+    "id": 5,
+    "marca": "Mercedes-Benz",
+    "modelo": "AMG GT",
+    "anio": 2023,
+    "precio": 135000000,
+    "tipo": "0km",
+    "combustible": "nafta",
+    "imagen": "imagenes/mercedesamg.jpg"
+  }
+]
