@@ -176,3 +176,8 @@ footer {
 .auto-card p {
     margin-bottom: 5px;
 }
+.error {
+    color: #b00020;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
