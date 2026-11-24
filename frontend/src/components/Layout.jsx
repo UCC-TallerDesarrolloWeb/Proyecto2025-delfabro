@@ -1,4 +1,7 @@
+import { useContext } from 'react'
 import { Link, Outlet } from 'react-router-dom'
+import Button from '@components/Button.jsx'
+import { TemaContext } from '@context/TemaContext.js'
 
 /**
  * Estructura común de todas las páginas: cabecera, navegación, contenido y pie
@@ -6,6 +9,8 @@ import { Link, Outlet } from 'react-router-dom'
  * @return {JSX.Element} Plantilla del sitio con la página activa en el Outlet
  */
 const Layout = () => {
+  const { tema, cambiarTema } = useContext(TemaContext)
+
   return (
     <div>
       <header>
@@ -17,6 +22,7 @@ const Layout = () => {
             <li><Link to="/contacto">Contacto</Link></li>
           </ul>
         </nav>
+        <Button texto={tema === 'claro' ? 'Modo oscuro' : 'Modo claro'} onClick={cambiarTema} />
       </header>
 
       <main>
