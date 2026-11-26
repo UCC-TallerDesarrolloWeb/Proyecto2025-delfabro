@@ -91,7 +91,7 @@ const Catalogo = () => {
         {autosFiltrados.map((auto) => (
           <Card
             key={auto.id}
-            imagen={import.meta.env.BASE_URL + auto.imagen}
+            imagen={auto.imagen}
             titulo={auto.marca + ' ' + auto.modelo}
           >
             <p>Año: {auto.anio}</p>
